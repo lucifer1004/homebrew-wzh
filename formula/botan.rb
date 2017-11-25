@@ -4,7 +4,7 @@ class Botan < Formula
 
   stable do
     url "https://botan.randombit.net/releases/Botan-1.10.17.tgz"
-
+    sha256 "6847ffb64b8d2f939dccfecc17bd2c80385d08f7621e2c56d3a335118e823613"
     # upstream ticket: https://bugs.randombit.net/show_bug.cgi?id=267
     patch :DATA
   end
