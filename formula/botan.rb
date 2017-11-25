@@ -3,8 +3,9 @@ class Botan < Formula
   homepage "https://botan.randombit.net/"
 
   stable do
-    url "https://botan.randombit.net/releases/Botan-1.10.17.tgz"
-    sha256 "6847ffb64b8d2f939dccfecc17bd2c80385d08f7621e2c56d3a335118e823613"
+    url "https://botan.randombit.net/releases/old/Botan-1.10.13.tgz"
+    sha256 "23ec973d4b4a4fe04f490d409e08ac5638afe3aa09acd7f520daaff38ba19b90"
+
     # upstream ticket: https://bugs.randombit.net/show_bug.cgi?id=267
     patch :DATA
   end
